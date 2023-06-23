@@ -33,8 +33,9 @@ Included in box supposedly.
 6. Set up Diag-Jumpers for Motors 7-4
 
 7. Use a quality/branded microSD for flashing
+****Check Jumper for PSU power or USB Power for preliminary use/flashing*****
 Make Menu-Config:
-
+****ALREADY DONE, check firmware.bin*****
 
 Extra Low-level Config Options
 STM32
