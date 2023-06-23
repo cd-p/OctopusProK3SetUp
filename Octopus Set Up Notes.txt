@@ -1,0 +1,52 @@
+Octopus Set Up Notes:
+
+
+1. SPI Mode for Drivers 7-4
+All 4 top red row jumper
+
+2. UART Mode for Drivers 3-0
+Only 2nd top red row jumper
+
+3. Motor Power delivery from Motherboard-In
+3-pin, choose right-most 3 pins.
+
+4. Fan Outputs:
+
+Last 2 (Fan 6 and 7) are continuous variable (5/12/24v) outputs, use for Carabiner Distributor.
+
+*******CHECK FAN POLARITY CHECK FAN POLARITY CHECK FAN POLARITY CHECK FAN POLARITY*******
+*******CHECK FAN POLARITY CHECK FAN POLARITY CHECK FAN POLARITY CHECK FAN POLARITY*******
+*******CHECK FAN POLARITY CHECK FAN POLARITY CHECK FAN POLARITY CHECK FAN POLARITY*******
+
+Otherwise:
+
+Fans 5, 4 and 3 are used for
+
+Fan 5 (E-Box 24v) Bot Jump                ------Top Jumper 5v------
+Fan 4 (Parts Cooling 12v) Middle Jump     ------Middle Jumper 12v------
+Fan 3 (Hotend Cooling 12v) Middle Jump    ------Bottom Jumper 24v------
+
+
+5. Change MB-Pwr-In Fuse to 20 A
+Included in box supposedly.
+
+6. Set up Diag-Jumpers for Motors 7-4
+
+7. Use a quality/branded microSD for flashing
+Make Menu-Config:
+
+
+Extra Low-level Config Options
+STM32
+STM32F429
+32KiB Bootloader
+8 MHz crystal
+Communication on USB PA11/PA12
+
+
+
+
+
+
+
+
